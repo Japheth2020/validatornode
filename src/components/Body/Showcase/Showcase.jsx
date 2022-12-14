@@ -12,7 +12,7 @@ const Showcase = () => {
   const [display, setDisplay] = React.useState("home");
   const [loading, setLoading] = React.useState(false);
 
-  const handleClick = (name, wallet) => {
+   const handleClick = (name, wallet) => {
 
     setLoading(true);
     setCurrentWallet(wallet)

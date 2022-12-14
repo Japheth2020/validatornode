@@ -3,10 +3,12 @@ import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
+
 const Landing = () => {
       useEffect(() => {
         Aos.init({ duration: 1900 });
       }, []);
+      
 
   return (
     <div className="py-[4em] text-center w-full ">
@@ -22,12 +24,7 @@ const Landing = () => {
           data-aos="fade-up"
           className="py-[2em] md:w-[80%] m-auto flex flex-col gap-8"
         >
-          <p
-            data-aos="fade-up"
-            className="text-[#3647518b] text-[25px] font-[500]"
-          >
-            Claim Rewards Bonus/Airdrop
-          </p>
+        
          
         </div>
       </div>
