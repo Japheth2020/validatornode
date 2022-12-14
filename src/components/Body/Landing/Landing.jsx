@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { SlMagnifier } from "react-icons/sl";
+// import { SlMagnifier } from "react-icons/sl";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
