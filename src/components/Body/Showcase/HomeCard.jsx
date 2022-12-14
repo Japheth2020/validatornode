@@ -4,7 +4,7 @@ import { ShowcaseContext } from './Showcase';
 
 
 const HomeCard = ({head, tagline}) => {
-    const { handleClick, currentWallet } = useContext(ShowcaseContext); 
+    const { handleClick } = useContext(ShowcaseContext); 
   return (
     <button onClick={()=> handleClick("wallets")} className='border-green-300 rounded border-[3px] p-8'>
     <p className='text-[24px]'><BsFillCheckCircleFill /></p>
