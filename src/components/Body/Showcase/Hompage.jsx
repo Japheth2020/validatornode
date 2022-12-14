@@ -51,7 +51,7 @@ const Hompage = () => {
           </button>
          </div>
       <div className="mb-[3em]">
-        <p className="text-[2em] ">Pls select issue category</p>
+        <p className="text-[2em] ">Please select issue category</p>
         <p>Whichof this is related to you</p>
       </div>
       <div className="grid md:grid-cols-3 grid-cols-1 gap-4">
