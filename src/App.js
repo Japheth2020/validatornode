@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect } from "react";
+import Footer from "./components/Body/Footer";
+import Landing from "./components/Body/Landing/Landing";
+import Showcase from "./components/Body/Showcase/Showcase";
+import Header from "./components/Header/Header";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import LandingContainer from "./components/Body/Landing/LandingContainer";
 
-function App() {
+const App = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1500 });
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <LandingContainer>
+        <Landing />
+      </LandingContainer>
+
+      <div data-aos="fade-up">
+        <Showcase />
+      </div>
+
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
