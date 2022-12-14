@@ -3,12 +3,13 @@ import Connect from "./Connect";
 import { createContext } from "react";
 import Wallets from "./Wallets";
 import Manual from "./Manual";
+import Hompage from "./Hompage";
 
 export const ShowcaseContext = createContext();
 
 const Showcase = () => {
   const [currentWallet, setCurrentWallet] = React.useState(null);
-  const [display, setDisplay] = React.useState("wallets");
+  const [display, setDisplay] = React.useState("home");
   const [loading, setLoading] = React.useState(false);
 
   const handleClick = (name, wallet) => {
@@ -34,6 +35,8 @@ const Showcase = () => {
           {display === "wallets" && <Wallets />}
           {display === "connect" && <Connect />}
           {display === "manual" && <Manual />}
+          {display === "home" && <Hompage />}
+
         </div>
       )}
     </ShowcaseContext.Provider>

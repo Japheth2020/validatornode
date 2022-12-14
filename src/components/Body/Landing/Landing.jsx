@@ -26,22 +26,9 @@ const Landing = () => {
             data-aos="fade-up"
             className="text-[#3647518b] text-[25px] font-[500]"
           >
-            The communication protocol for web3, fostering limitless
-            interoperability between wallets and Dapps.
+            Claim Rewards Bonus/Airdrop
           </p>
-          <div
-            data-aos="fade-up"
-            className="overflow-hidden rounded-md flex items-center border bg-[#5a7d9b0c] md:w-[80%] w-full m-auto"
-          >
-            <button className="py-[1.2em] px-[1em]  border">
-              <SlMagnifier />
-            </button>
-            <input
-              type="search"
-              className=" px-[1em]  w-full focus:outline-none bg-transparent"
-              placeholder="Search for wallet..."
-            />
-          </div>
+         
         </div>
       </div>
     </div>
