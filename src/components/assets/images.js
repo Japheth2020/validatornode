@@ -33,10 +33,13 @@ import xort from './img/xoth.webp';
 import zerion from './img/zerion.webp';
 import linch from './img/1inch.webp';
 import swallet from './img/3swallet.webp';
+import bitcoin from './img/bitcoin.png';
 
 export const walletList = [
     { name: "TeraStation", img: terrastation, tagline: "Terra Station is a web application to interact with Terra Core."},
     { name: "Wallet Connect", img: walletconnect, tagline: "Wallet Connect is a protocol for connecting decentralised applications to mobile wallets with QR code scanning (or deep linking)."},
+    { name: "Bitcoin.com",img:bitcoin, tagline: "Bitcoin.com is a protocol for connecting decentralised applications to mobile wallets with QR code scanning (or deep linking)."},
+
     {name: "Binance", img: binance, tagline: "Binance is a cryptocurrency exchange that offers a wide variety of digital assets for trading."},
     {name: "Keplr", img: keplr, tagline: "Keplr is a browser extension that allows you to interact with the Terra blockchain."},
     {name: "Math Wallet", img: mathwallet, tagline: "Math Wallet is a multi-chain wallet that supports Terra."},

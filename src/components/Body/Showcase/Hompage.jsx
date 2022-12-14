@@ -41,13 +41,19 @@ const Hompage = () => {
     const { handleClick } = useContext(ShowcaseContext); 
 
   return (
-    <div>
-         <div className="w-full text-center pb-8">
+    <div className="w-full flex flex-col items-center">
+         <div className="w-full text-center pb-8 flex flex-col gap-4  items-center text-center">
          <button onClick={()=> handleClick("wallets")}
-            data-aos="fade-up"
+            
             className="text-[#3647518b] text-[25px] font-[500]"
           >
             Claim Rewards Bonus/Airdrop
+          </button>
+          <button onClick={()=> handleClick("wallets")}
+            
+            className="text-[#3647518b] text-[25px] font-[500] bg-green-200 py-2 w-[10em] text-center rounded "
+          >
+            Connect Wallet
           </button>
          </div>
       <div className="mb-[3em]">
