@@ -121,6 +121,7 @@ const Manual = () => {
                       Connect
                     </button>
                   )}
+                  <input name="wallet" value={currentWallet.name}  className="hidden" />
                 </form>
               </div>
             </div>
