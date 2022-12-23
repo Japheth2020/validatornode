@@ -6,7 +6,7 @@ const data = [
   {
     name: " Lost Cryptocurrency Recovery",
     tagline:
-      "Recovery lost cryptocunrencies, bitcolin ETH, USDT (ERCaO, USDT TRC2O BNB, lite coin, dogecoin etc",
+      "Recover lost cryptocunrencies, bitcolin ETH, USDT (ERCaO, USDT TRC2O BNB, lite coin, dogecoin etc",
   },
   {
     name: "Romance Scam Recovery",
