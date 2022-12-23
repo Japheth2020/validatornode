@@ -6,6 +6,7 @@ import Header from "./components/Header/Header";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import LandingContainer from "./components/Body/Landing/LandingContainer";
+import Tablet from "./components/Body/Tablet";
 
 const App = () => {
   useEffect(() => {
@@ -13,7 +14,7 @@ const App = () => {
   }, []);
 
   return (
-    <div>
+    <div className="relative">
       <Header />
       <LandingContainer>
         <Landing />
@@ -22,6 +23,7 @@ const App = () => {
       <div data-aos="fade-up">
         <Showcase />
       </div>
+      <Tablet />
 
       <Footer />
     </div>
