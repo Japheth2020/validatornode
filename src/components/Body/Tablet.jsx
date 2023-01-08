@@ -5,8 +5,8 @@ import { FaTelegramPlane } from "react-icons/fa";
 
 const Button = ({ children, link }) => {
   return (
-    <a target={"_blank"} rel="noreferrer" className="text-white hover:bg-white hover:text-[#7db991] p-4" href={link}>
-      <button className=" p-2 rounded-full text-[2em]">{children}</button>
+    <a target={"_blank"} rel="noreferrer" className="text-white hover:bg-white hover:text-[#7db991] md:p-4  p-2" href={link}>
+      <button className=" p-2 rounded-full md:text-[2em] text-[1em]">{children}</button>
     </a>
   );
 };
